@@ -1,0 +1,94 @@
+
+#contacte{
+background-color: #37a446;
+}
+
+#contacte h1 {
+padding-bottom: 0px;
+        padding-top: 30px;
+    
+}
+
+#contacte h2 {
+    margin-top: 0px;
+    
+}
+
+#contacte h1,
+#contacte h2 {
+    font-family: 'Gibson';
+    text-transform: uppercase;
+     color: #efefef;
+    text-align: center;
+    
+}
+
+#contacte span {
+    color: white;
+}
+
+@media (min-width: 1200px) {
+    #contacte {
+        padding: 0px 0px 0px 0px;
+        margin-bottom: -20px;
+       
+        z-index: 0;
+    }
+    #contacte h1 {
+        font-size: 40px;
+    }
+    #contacte h2 {
+        font-size: 30px;
+    }
+    #contacte h4 {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+   
+    #contacte h1 {
+        font-size: 40px;
+    }
+    #contacte h1 {
+        font-size: 25px;
+    }
+    #contacte h4 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    #contacte h1 {
+        font-size: 20px;
+    }
+    #contacte h1 {
+        font-size: 16px;
+    }
+}
+
+
+#contacte .blue-line {
+    margin-top: -39px;
+    border-bottom: 40px solid #37a446;
+    border-top: none;
+    
+}
+
+
+#contato h1,
+#contato h2 {
+    font-family: 'Gibson';
+    text-transform: uppercase;
+    color: #efefef;
+    text-align: center;
+    
+}
+
+.contato{
+background: url(https://scontent-mia1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/10980709_996637933716668_1678510220936516947_n.jpg?oh=4d1e5ba3f3cacb5427f53f18307738a8&oe=57936823) fixed;
+    background-size: cover;
+    background-position:  center !important
+}
+
+
