@@ -543,15 +543,10 @@ ul {
         padding: 5px 15px;
     }
     #parallaxBar h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 }
 
-
-#valores{
-    margin-top: -82px;
-
-}
 
 #inscreva {
     background-color: #232323;
@@ -563,7 +558,16 @@ ul {
 
 .top-razura {
     margin-top: -82px;
+        max-width: 100%;
+    min-height: 84px;
 }
+
+.bottom-razura {
+   margin-top: -96px;
+        max-width: 100%;
+    min-height: 84px;
+}
+
 
 
 .number-circle {
