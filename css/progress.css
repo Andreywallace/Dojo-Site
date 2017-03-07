@@ -1,15 +1,35 @@
 #valores li {
 
-	width: 100%;
+	    width: 80%;
+  margin-left: 10%;
+    margin-right: 10%;
 	float: left;
 	list-style-type: none;
-	padding-right: 5.3333333%;
+	
 }
 
 
+#historia li {
+	    width: 80%;
+  margin-left: 0%;
+    margin-right: 0%;
+	float: left;
+	list-style-type: none;
+	
+}
+
+#historia ul li {
+color: white !important;
+    font-size: 1.2em !important;
+}
+
 #valores ul li {
 color: black;
-    font-size: 1.4em;
+    font-size: 1.2em;
+}
+
+#valores i {
+    color: #1e7cbe;
 }
 
 valores li:nth-child(even) { margin-bottom: 5em;}
@@ -166,9 +186,9 @@ background-image:
 
 /************* STEPS ****************************/
 .section-header, .steps-header, .steps-name {
-  color: #37a446;
+  color: #1e7cbe;
   font-weight: 400;
-  font-size: 1.4em;
+  font-size: 1.3em;
 }
 
 .steps-header {
@@ -202,8 +222,8 @@ border-top: 4px solid white;
       
     padding-top: 5px;
     margin-top: 80px;
-    margin-left: 16.65%;
-    margin-right: 16.65%;
+margin-left: 11.5%;
+    margin-right: 4%;
   }
     
 
@@ -217,31 +237,40 @@ border-top: 4px solid white;
   clear: both;
 }
 
-.steps-one,
-.steps-two,
-.steps-three {
+  .steps-one,
+  .steps-two,
+  .steps-three,
+  .steps-four,
+  .steps-five {
   outline: 1px dashed rgba(0, 128, 0, 0);
 }
 @media screen and (max-width: 500px) {
-  .steps-one,
+   .steps-one,
   .steps-two,
-  .steps-three {
+  .steps-three,
+  .steps-four,
+  .steps-five {
     margin-left: -25px;
   }
 }
 @media screen and (min-width: 500px) {
   .steps-one,
   .steps-two,
-  .steps-three {
+  .steps-three,
+  .steps-four,
+  .steps-five {
     float: left;
-    width: 33%;
+    width: 25%;
     margin-top: -50px;
   }
 }
 
 @media screen and (max-width: 500px) {
   .steps-one,
-  .steps-two {
+  .steps-two,
+    .steps-three,
+    .steps-four,
+    .steps-five {
     padding-bottom: 40px;
   }
 }
@@ -249,18 +278,18 @@ border-top: 4px solid white;
 @media screen and (min-width: 500px) {
   .steps-one {
     margin-left: -16.65%;
-    margin-right: 16.65%;
+    margin-right: 0%;
   }
 }
 
 @media screen and (max-width: 500px) {
-  .steps-three {
+  .steps-five {
     margin-bottom: -100%;
   }
 }
 @media screen and (min-width: 500px) {
-  .steps-three {
-    margin-left: 16.65%;
+  .steps-five {
+    margin-left: 2%;
     margin-right: -16.65%;
   }
 }
@@ -282,6 +311,7 @@ border-top: 4px solid white;
 .steps-name,
 .steps-description {
   margin: 0;
+    padding-top: 10px;
 }
 
 @media screen and (min-width: 500px) {

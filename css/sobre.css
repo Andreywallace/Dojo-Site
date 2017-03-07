@@ -81,17 +81,31 @@ header .intro-text .skills {
 }
 
 .intro-valores{
-padding: 80px 0;
+padding: 25px 0;
 }
 
-#parceiros{
-padding: 80px 0;
+.edital-valores{
+    padding: 80px 0;
 }
 
-#parceiros img {
-min-width: 100%;
+#parceiros, #cases{
+padding: 70px 0;
+}
+
+
+#parceiros img{
+    max-height: 200px;
    
 }
+
+#cases img{
+      max-height: 120px;
+}
+
+
+
+
+
 
 section h2 {
     margin: 0;
@@ -104,7 +118,7 @@ section h1 {
 }
 
 section h4 {
-    color: #37a446;
+    color: #1e7cbe;
 }
 
 hr.star-light,
@@ -267,7 +281,7 @@ section.success {
 /*------------------ HISTÓRIA -------------------------*/
 
 .historia {
-    background: linear-gradient( rgba(255, 0, 0, 0.26), rgba(255, 0, 0, 0.36)), url(../img/caju.png) 100% 0px no-repeat;
+    background: linear-gradient( rgba(6, 91, 245, 0.68), rgba(0, 78, 255, 0.51)), url(../img/caju.png) 100% 0px no-repeat;
     background-size: cover;
     color: #fff;
     height: 609px;
@@ -296,7 +310,7 @@ section.success {
 }
 
 #historia .social:hover{
-    color:#214c9b !important;
+    color: #efefef !important;
 }
 
 
@@ -347,28 +361,29 @@ section.success {
     padding-top: 4%;
     padding-left: 5%;
     padding-bottom: 60px;
+        margin-bottom: 200px;
 }
 .parallax-sobre {
-    background: url(https://scontent.ffor2-1.fna.fbcdn.net/t31.0-8/15195828_677451719098801_1179054285383449346_o.jpg) fixed;
+    background: url(../img/passo1.jpg) fixed;
     background-position: center !important;
     background-size: cover;
 }
 
 .parallax-vantagem {
-    background: url(../img/representante.JPG) fixed;
+    background: url(../img/passo4.jpg) fixed;
     background-position: center !important;
     background-size: cover;
 }
 
 
 .parallax-consultoria {
-    background: url(https://scontent.ffor2-1.fna.fbcdn.net/t31.0-8/15123376_677452229098750_2807139433899394514_o.jpg) fixed;
+    background: url(../img/passo2.png) fixed;
     background-position: center !important;
     background-size: cover;
 }
 
 .parallax-investidor {
-    background: url(https://scontent.ffor2-1.fna.fbcdn.net/t31.0-8/12240421_512551825588792_4981646636881522283_o.jpg) fixed;
+    background: url(../img/passo3.jpg) fixed;
     background-position: center !important;
     background-size: cover;
 }
@@ -440,6 +455,18 @@ section.success {
 	transform: translate3d(-50%,-50%,0);
 }
 
+.btn-main-title{
+    position: absolute;
+    margin: 0px -150px;
+    top: 70%;
+    left: 50%;
+}
+
+
+
+
+
+
 .demo-1 .main-title {
 	text-transform: uppercase;
 	font-size: 4.2em;
@@ -484,7 +511,7 @@ display: block;
 
     list-style: none;
     margin: 10px 0;
-    padding: 40px 10px;
+    padding: 15px 10px;
     /* line-height: 50px; */
     text-align: center;
     -webkit-transform: translateZ(0);
@@ -495,4 +522,62 @@ display: block;
 .list-item:hover {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+}
+
+
+
+
+/* BUTTON NO CANVAS*/
+
+#page-top span{
+  width: 300px;
+
+
+  z-index: 1;
+
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+#page-top button {
+  cursor: pointer;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 10px;
+  position: relative;
+  display: block;
+  text-align: center;
+  box-sizing: border-box;
+  z-index: 1;
+  width: 300px;
+  background-color: transparent;
+}
+
+#page-top button::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transition: all .6s cubic-bezier(0.25,0.1,0.2,1);
+  -moz-transition: all .6s cubic-bezier(0.25,0.1,0.2,1);
+  transition: all .6s cubic-bezier(0.25,0.1,0.2,1);
+  content: "";
+  background-color: #2655a0;
+  position: absolute;
+  top: 0px;
+  right: auto;
+  left: -105px;
+  z-index: -1;
+  width: 0;
+  height: 300px;
+}
+
+#page-top button:hover::before {
+  transform: rotate(70deg);
+  width: 600px;
 }

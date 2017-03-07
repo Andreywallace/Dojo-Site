@@ -158,7 +158,8 @@
             ctx.beginPath();
             ctx.moveTo(p.x, p.y);
             ctx.lineTo(p.closest[i].x, p.closest[i].y);
-            ctx.strokeStyle = 'rgba(213,50,50,'+ p.active+')';
+            // Aqui trocamos as cores da LINHA
+            ctx.strokeStyle = 'rgba(6,167,229,'+ p.active+')';
             ctx.stroke();
         }
     }
@@ -177,7 +178,7 @@
             if(!_this.active) return;
             ctx.beginPath();
             ctx.arc(_this.pos.x, _this.pos.y, _this.radius, 0, 2 * Math.PI, false);
-            ctx.fillStyle = 'rgba(213,50,50,'+ _this.active+')';
+            ctx.fillStyle = 'rgba(6,167,229,'+ _this.active+')';
             ctx.fill();
         };
     }
