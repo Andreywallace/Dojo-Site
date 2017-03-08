@@ -8,7 +8,7 @@ header {
     
     
     background:  url(../img/bg_video.png) bottom left repeat,
-        url(../img/background.png) top left repeat;
+        url(../img/passo2.png) top left repeat;
 
 
     background-size: 3px 3px, cover;
@@ -99,9 +99,15 @@ padding: 70px 0;
 }
 
 #cases img{
-      max-height: 120px;
+        max-height: 140px;
+    min-height: 140px;
 }
 
+
+.case{
+    padding-bottom: 40px;
+    
+}
 
 
 
@@ -546,7 +552,7 @@ display: block;
   text-transform: uppercase;
   text-decoration: none;
   color: #fff;
-  border: 2px solid #fff;
+ border: 3px solid #06a7e5;
   padding: 10px;
   position: relative;
   display: block;
