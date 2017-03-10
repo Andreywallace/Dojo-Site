@@ -334,7 +334,8 @@ section.success {
 .child span {
     font-family: 'Passion One', cursive;
     text-shadow: 1px 1.764px 1px #464646;
-    font-size: 27px;
+    font-size: 22px;
+    text-align: justify;
 }
 .center {
     text-align: center;
