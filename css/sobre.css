@@ -287,7 +287,7 @@ section.success {
 /*------------------ HISTÓRIA -------------------------*/
 
 .historia {
-    background: linear-gradient( rgba(6, 91, 245, 0.68), rgba(0, 78, 255, 0.51)), url(../img/caju.png) 100% 0px no-repeat;
+    background: linear-gradient( rgba(6, 91, 245, 0.68), rgba(0, 78, 255, 0.51)), url(../img/caju.jpg) 100% 0px no-repeat;
     background-size: cover;
     color: #fff;
     height: 609px;
